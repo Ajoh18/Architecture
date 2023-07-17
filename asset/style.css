@@ -12,8 +12,9 @@ html{
 .header{
     width: 100%;
     height: 100vh;
+    position: relative;
 }
-.img wrapper{
+.img-wrapper{
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0.8);
@@ -24,4 +25,20 @@ html{
     opacity: .5;
     object-fit: cover;
 }
+.banner{
+    position: absolute;
+    top: 30%;
+    left: 15%;
 
+}
+.banner h1{
+    font-family: baloo Da 2, serif;
+    font: size 8rem;
+    font-weight:300 ;
+    color: white;
+    width: 50%;
+    line-height: 9rem;
+
+
+
+}
