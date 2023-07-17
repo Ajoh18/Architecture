@@ -6,4 +6,16 @@
     list-style: none ;
     text-decoration: none;
 }
+html{
+    font: 62.5%;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.img wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0.8);
 
+}
