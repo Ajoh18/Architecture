@@ -1,24 +1,29 @@
+
 *{
-    margin:0 ;
+    margin: 0;
     padding: 0;
     outline: none;
     box-sizing: border-box;
-    list-style: none ;
+    list-style: none;
     text-decoration: none;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  .hamburger-menu {
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    top: 5rem;
+  right: 5rem;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
 }
-html{
-    font: 62.5%;
-}
-.header{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
-.img-wrapper{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0.8);
-}
+
+  
 .img-wrapper img{
     width: 100%;
     height: 100%;
@@ -32,7 +37,7 @@ html{
 
 }
 .banner h1{
-    font-family: baloo Da 2, serif;
+    font-family: "baloo Da 2", serif;
     font: size 8rem;
     font-weight:300 ;
     color: white;
