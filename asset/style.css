@@ -35,15 +35,21 @@
     perspective: 100rem;
     overflow: hidden;
   }
-  
-
-  
-.img-wrapper img{
+  .img-wrapper {
+    width: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+  }
+  .img-wrapper img {
     width: 100%;
     height: 100%;
-    opacity: .5;
     object-fit: cover;
-}
+    opacity: 0.5;
+    animation: scale 25s;
+  }
+
+  
 .banner{
     position: absolute;
     top: 30%;
