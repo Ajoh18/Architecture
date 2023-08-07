@@ -33,7 +33,7 @@
     left: 15%;
   }
   .banner h1{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Baloo Da 2", serif;
     font-size: 8rem;
     font-weight: 300;
     color: #fff;
@@ -43,7 +43,8 @@
     text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.4);
   }
 .banner p{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Josefin Slab", serif;
+  ;
   font-size: 4rem;
   color: #fff;
   width: 70%;
@@ -56,6 +57,7 @@
   height: 7rem;
   background-color: #c29525;
   border: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Mulish", serif;
+
   text-shadow: 0.2rem, 0.4rem rgba(0,0,0,0.2);
 }
