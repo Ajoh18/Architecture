@@ -32,7 +32,7 @@
     top: 30%;
     left: 15%;
   }
-  .banner-h1{
+  .banner h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 8rem;
     font-weight: 300;
@@ -42,3 +42,20 @@
     letter-spacing: 0.2rem;
     text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.4);
   }
+.banner p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  color: #fff;
+  width: 70%;
+  letter-spacing: 0.1rem;
+  margin-bottom: 5rem;
+  text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.4);
+}
+.banner button{
+  width: 25rem;
+  height: 7rem;
+  background-color: #c29525;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0.2rem, 0.4rem rgba(0,0,0,0.2);
+}
